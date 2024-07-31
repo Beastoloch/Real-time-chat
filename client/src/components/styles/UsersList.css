@@ -1,0 +1,85 @@
+.users-list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 55rem;
+    margin: 0 auto 2rem;
+    align-items: center;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: end;
+    text-align: center;
+    margin: auto;
+    border-bottom: 1px solid #565657;
+    border-radius: 3px;
+}
+
+.user-list-going{
+    cursor: pointer;
+    background-color: #d9e4ff;
+    transition: background-color 0.2s linear;
+}
+
+.user-list-going:hover{
+    background-color: #dedbff;
+}
+
+.user__info{
+    margin: 1rem auto;
+    cursor: default;
+}
+
+.user__info-popup{
+    margin: 1rem auto;
+}
+
+.user__info-mail{
+    display: flex;
+    margin-left: 0;
+    margin-right: 6rem;
+    justify-self: flex-end;
+}
+
+.user__info-mail-popup{
+    margin-right: 3.5rem;
+}
+
+.user__edit-button{
+    margin-left: 1rem;
+    width: 1rem;
+    height: 1rem;
+    align-self: center;
+    background-image: url('../../images/pencil.png');
+    background-position: center;
+    background-size: contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor:pointer;
+    border: none;
+}
+
+.kick-button{
+    background-image: url('../../images/close-red.svg');
+    background-color: transparent;
+    height: 2rem;
+    width: 2rem;
+    align-self: center;
+    background-size: cover;
+    margin-left: -2rem;
+    cursor: pointer;
+    border: none;
+    transition: opacity 0.2s linear;
+}
+
+.kick-button:hover{
+    opacity: 0.7;
+}
+
+.user-list__title{
+    font-size: 1.3rem;
+    cursor: default;
+}

@@ -1,0 +1,99 @@
+.users-list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 55rem;
+    margin: 0 auto 2rem;
+    align-items: center;
+}
+
+.user{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    border-bottom: 1px solid #565657;
+    justify-content: space-between;
+    border-radius: 3px;
+}
+
+
+.user__info{
+    margin: 1rem auto;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.user__info-popup{
+    margin: auto;
+}
+
+.user__info-mail{
+    display: flex;
+    margin-left: 0;
+    margin-right: 6rem;
+    justify-self: flex-end;
+}
+
+.user__info-mail-popup{
+    margin-right: 3.5rem;
+}
+
+.info-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 60%;
+}
+
+.add-button{
+    align-self: center;
+    width: 11rem;
+    min-width: 3.125rem;
+    height: 3.125rem;
+    background-color: #000000;
+    background-image: url(../../images/add-button.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 2px;
+    border: #FFFFFF 2px solid;
+    cursor:pointer;
+    transition: opacity 0.3s linear;
+}
+
+.button-chat{
+    width: 3.125rem;
+    background-color: transparent;
+    border: none;
+    background-image: url(../../images/plus.svg);
+    margin-left: -4rem;
+    margin-right: 1rem;
+    transition: background-color 0.2s linear;
+    border-radius: 5px;
+}
+
+.button-chat:hover{
+    background-color: #dedbff;
+}
+
+.user-list-not-going{
+}
+
+/*.user__edit-button{*/
+/*    margin-left: 1rem;*/
+/*    width: 1rem;*/
+/*    height: 1rem;*/
+/*    align-self: center;*/
+/*    background-image: url('../../images/pencil.png');*/
+/*    background-position: center;*/
+/*    background-size: contain;*/
+/*    background-color: transparent;*/
+/*    background-repeat: no-repeat;*/
+/*    cursor:pointer;*/
+/*    border: none;*/
+/*}*/
+
+.user-list__title{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-bottom: 0.2rem;
+}

@@ -1,0 +1,59 @@
+.main-page{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 55rem;
+    height: 80vh;
+    justify-content: space-between;
+}
+
+.main-page-info__description{
+    text-align: center;
+    margin: 2.8rem auto 0;
+    font-weight: normal;
+    font-size: 1.4rem;
+    max-width: 40rem;
+}
+
+.main-page-info__title{
+    text-align: center;
+}
+
+.main-page-info__creators{
+    display: flex;
+    justify-self: end;
+}
+
+.main-page-users{
+    align-items: center;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.main-page__contact{
+    text-align: center;
+    align-self: end;
+}
+
+.main-page__contact-email{
+    font-weight: bold;
+}
+
+.main-page-users__count{
+    font-weight: bold;
+}
+
+.main-page-creators__title{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.main-page-creators__name{
+    font-size: 0.9rem;
+    margin-top: 0;
+    margin-bottom: 0.4rem;
+}

@@ -1,0 +1,36 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    width: 40%;
+    align-items: center;
+}
+
+.menu-admin{
+    width: 50%;
+}
+
+@media screen and (max-width: 890px) {
+    .menu{
+        margin-right: 1.3rem;
+    }
+}
+
+.menu__link{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    margin: 0;
+    height: min-content;
+    transition: color 0.2s linear;
+}
+
+.menu__link:hover{
+    color: #545454;
+}
+
+.menu__link_active{
+    color: #545454;
+    font-weight: bold;
+}
